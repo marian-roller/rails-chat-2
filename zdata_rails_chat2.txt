@@ -6,3 +6,7 @@ rails db:migrate
 
 root 'chats#index'
 
+update form and new views, and chat_controller
+
+bundle redis
+rails g channel room
