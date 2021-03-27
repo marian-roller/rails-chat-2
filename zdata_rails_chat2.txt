@@ -1,0 +1,8 @@
+tutorial:
+https://dev.to/timnans/simple-rails-6-chat-application-with-action-cable-1b6m
+
+rails g scaffold Chat  message:string
+rails db:migrate
+
+root 'chats#index'
+
